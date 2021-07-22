@@ -1,74 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
-* {
-  box-sizing: border-box;
-}
 
 .selfie {
     width: 150px;
-    border: 5px groove #ffffff;
+    border: 5px groove #003955;;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-}
-
-h2, p, .menu {
+h1, h2, p, .menu {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
 }
 
 header {
-    background-color: #ffffff9a;
+    background-color: #6eb1b4;
+    color: #003955;
     font-weight: bolder;
     border-radius: 15px;
     padding: 25px;
     text-align: left;
-}
-
-/* Hover Classes for name logo */
-
-.hoverDiv {
-  position: relative;
-  font-size: 45px;
-  font-family: Pangolin;
-  font-weight: 900;
-  color: #ffffff;
-}
-
-.hoverDiv div:hover {
-  color: #ffffff;
-  text-shadow: 0 0.1vmin 0 #dba1a1, 0 0.2vmin 0 #d89999, 0 0.3vmin 0 #d59292,
-    0 0.4vmin 0 #d28a8a, 0 0.5vmin 0 #cf8383, 0 0.6vmin 0 #cd7c7c,
-    0 0.7vmin 0 #ca7474, 0 0.8vmin 0 #c76d6d, 0 0 0.5vmin rgb(230 139 139 / 5%),
-    0 -0.1vmin 0.3vmin rgb(230 139 139 / 20%),
-    0 0.9vmin 9vmin rgb(230 139 139 / 30%),
-    0 1.2vmin 1.2vmin rgb(230 139 139 / 30%),
-    0 1.5vmin 1.5vmin rgb(230 139 139 / 30%);
-}
-
-.hoverDiv {
-  display: flex;
-  cursor: pointer;
-}
-
-.hoverDiv div {
-  color: #ffffff;
-  min-width: 0.2em;
-  transform: translateY(0);
-  transition: transform 300ms ease-in-out, text-shadow 300ms ease-in-out,
-    color 300ms ease-in-out;
-  text-shadow: 0 0 0 #dba1a1, 0 0 0 #d89999, 0 0 0 #d59292, 0 0 0 #d28a8a,
-    0 0 0 #cf8383, 0 0 0 #cd7c7c, 0 0 0 #ca7474, 0 0 0 #c76d6d,
-    0 0 0 rgb(230 139 139 / 5%), 0 0 0 rgb(230 139 139 / 20%),
-    0 0 0 rgb(230 139 139 / 30%), 0 0 0 rgb(230 139 139 / 30%),
-    0 0 0 rgb(230 139 139 / 30%);
-}
-
-.hoverDiv div:hover {
-  transform: translateY(-0.8vmin);
 }
 
 .menu {
@@ -78,22 +25,7 @@ header {
 body {
     text-align: center;
     align-items: center;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  	background-size: 400% 400%;
-	  animation: gradient 15s ease infinite;
-}
-
-/* Adds Gradient features to background */
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    background-color: #efc9af;
 }
 
 /* Adds Brand Logo Images */
@@ -129,13 +61,12 @@ body {
     background: white;
   }
   
-/* Sets sectioning*/
+/* Sets backgrounds for each section*/
   .bordered-section {
-    background-color: #ffffff9a;
+    background-color: #6eb1b4;
     align-items: center;
     border-radius: 15px;
     color: #003955;
-    padding: 5px;
   }
 
   /* Table CSS */
@@ -152,71 +83,3 @@ body {
   th {
     text-align: left;
   }
-
-  .center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  footer {
-    padding: 10px;
-  }
-
-@media only screen and (orientation: portrait) {
-
-  .selfie {
-    width: 500px;
-    border: 5px groove #ffffff;
-  }
-
-  .hoverDiv {
-    position: relative;
-    font-size: 60px;
-    font-family: Pangolin;
-    font-weight: 900;
-  }
-
-  .fa {
-    width: 200px;
-    border-radius: 0;
-  }
-
-  .bordered-section {
-  padding: 50px;
-  }
-
-  section {
-    padding: 50px;
-  }
-
-}
-
-@media only screen and (orientation: landscape) {
-
-  .fa {
-    width: 200px;
-    border-radius: 0;
-  }
-
-  .bordered-section {
-  padding: 50px;
-  }
-
-  section {
-    padding: 50px;
-  }
-
-}
-
-@media only screen and (min-width: 768px) {
-  
-  .fa {
-    padding: 20px;
-    font-size: 100px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-
-}
