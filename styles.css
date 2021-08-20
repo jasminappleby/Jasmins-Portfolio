@@ -182,13 +182,12 @@ body {
   }
 
   .bordered-section {
-  padding: 50px;
+    padding: 20px;
   }
 
   section {
-    padding: 50px;
+    padding: 30px;
   }
-
 }
 
 @media only screen and (orientation: landscape) {
@@ -210,13 +209,8 @@ body {
 
 @media only screen and (min-width: 768px) {
   
-  .fa {
-    padding: 20px;
-    font-size: 100px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  .selfie { 
+    width: 300px;
   }
 
 }
