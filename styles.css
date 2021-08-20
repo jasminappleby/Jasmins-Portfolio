@@ -158,9 +158,13 @@ body {
     margin-right: auto;
   }
 
+  /* footer */
+
   footer {
     padding: 10px;
   }
+
+/* styles for portrait viewing */  
 
 @media only screen and (orientation: portrait) {
 
@@ -190,6 +194,8 @@ body {
   }
 }
 
+/* styles for landscape viewing */  
+
 @media only screen and (orientation: landscape) {
 
   .fa {
@@ -206,6 +212,8 @@ body {
   }
 
 }
+
+/* styles specifically for screens less than 768px (most mobiles) */  
 
 @media only screen and (min-width: 768px) {
   
