@@ -100,7 +100,7 @@ body {
 .fa {
     padding: 20px;
     font-size: 100px;
-    width: 20px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -109,6 +109,7 @@ body {
   /* Adds hover effect */
 .fa:hover {
     opacity: 0.7;
+    transition: 0.5;
   }
 
   /* LinkedIn */
@@ -158,38 +159,18 @@ body {
     margin-right: auto;
   }
 
+  /* footer */
+
   footer {
     padding: 10px;
   }
 
+/* styles for portrait viewing */  
+
 @media only screen and (orientation: portrait) {
 
-  .selfie {
-    width: 500px;
-    border: 5px groove #ffffff;
-  }
 
-  .hoverDiv {
-    position: relative;
-    font-size: 60px;
-    font-family: Pangolin;
-    font-weight: 900;
-  }
-
-  .fa {
-    width: 200px;
-    border-radius: 0;
-  }
-
-  .bordered-section {
-  padding: 50px;
-  }
-
-  section {
-    padding: 50px;
-  }
-
-}
+/* styles for landscape viewing */  
 
 @media only screen and (orientation: landscape) {
 
@@ -208,15 +189,34 @@ body {
 
 }
 
+/* styles specifically for screens less than 768px (most mobiles) */  
+
 @media only screen and (min-width: 768px) {
   
-  .fa {
-    padding: 20px;
-    font-size: 100px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  .selfie { 
+    width: 300px;
+    border: 5px groove #ffffff;
   }
+
+  .hoverDiv {
+    position: relative;
+    font-size: 60px;
+    font-family: Pangolin;
+    font-weight: 900;
+  }
+
+  .fa {
+    width: 200px;
+    border-radius: 0;
+  }
+
+  .bordered-section {
+    padding: 20px;
+  }
+
+  section {
+    padding: 30px;
+  }
+}
 
 }
