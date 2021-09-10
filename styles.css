@@ -15,14 +15,7 @@
     border: 5px groove #ffffff;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-}
-
 h2, p, .menu {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     color: black;
 }
 
