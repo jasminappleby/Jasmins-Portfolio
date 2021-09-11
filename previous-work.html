@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>Project Archive</title>
     <link rel="shortcut icon" type="image/jpg" href="/imgs/favicon-two.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">  
   </head>
   <body>
-      <header>
+    <header>
+      <nav class="navbar-nav form-inline">
         <div class="hoverDiv"> 
           <div>J</div>
           <div>a</div>
@@ -16,46 +18,38 @@
           <div>i</div>
           <div>n</div>
         </div>
-        <nav class="menu">
-          <a href="index.html">Home</a>
-        </header>
-      <main>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        </nav>
+    </header> 
+      <main class="container text-center">
         <section>
-          <h1>Project Archive</h1>
+          <h1 class="display-4 p-5">Project Archive</h1>         
           <p>Welcome to my project archive. This is where I have listed all the projects I have worked on throughout my time training at Futureproof. </p>
         </section>
-        <section>
-          <table class="center">
-              <tr>
-                  <th>Link</th>
-                  <th>Description</th>
-              </tr>
-              <tr>
-                  <td><a href="https://jasmins-html-basics.netlify.app/" target="_blank">HTML Basics</a></td>
-                  <td>Some basic HTML work that was competed on day one of the futureproof training.</td>
-              </tr>
-              <tr>
-                <td><a href="https://jasmins-favourite-food.netlify.app/" target="_blank">Favourite Foods</a></td>
-                <td>This is a website that I created using HTML and Bootstrap. This is the first time I have ever used Bootstrap.</td>
-              </tr>
-              <tr>
-                <td><a href="https://drake-discography.netlify.app" target="_blank">Drake's Discography</a></td>
-                <td>This is the first web app I have built in React. I did this as a paired project!</td>
-              </tr>
-              <!--<tr>
-                <td><a href="" target="_blank"></a></td>
-                <td></td>
-              </tr>-->
-              <!--<tr>
-                <td><a href="" target="_blank"></a></td>
-                <td></td>
-              </tr>-->
-              <!--<tr>
-                <td><a href="" target="_blank"></a></td>
-                <td></td>
-              </tr>-->
-          </table>
       </section>
+      <div class="card-group">
+
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="gifs/fav-food.gif" alt="favourite food app gif">
+                  <div class="card-body">
+                    <h5 class="card-title">Favourite Foods</h5>
+                    <p class="card-text">This is the first time I learnt and used Bootstrap whilst at Futureproof!</p>
+                    <a href="https://jasmins-favourite-food.netlify.app/" target="_blank" class="btn-decoration btn btn-primary">Recipe Here</a>
+                  </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="gifs/drake.gif" alt="drake app gif">
+                  <div class="card-body">
+                    <h5 class="card-title">Drake Wiki</h5>
+                    <p class="card-text">This project was the first React project I ever created. This is still in Dev!</p>
+                    <a href="https://drake-discography.netlify.app" target="_blank" class="btn-decoration btn btn-primary">Recipe Here</a>
+                  </div>
+              </div>
+
+      </div>   
     </main>
     <footer>
     </footer>
