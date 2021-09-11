@@ -12,7 +12,8 @@
 
 .selfie {
     width: 150px;
-    border: 5px groove #ffffff;
+    border: 5px dotted #ffffff;
+    border-radius: 50%;
 }
 
 h2, p, .menu {
@@ -158,12 +159,49 @@ body {
     margin-right: auto;
   }
 
+  /* Timeline CSS */
+
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+  ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+  
+  ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+  ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ff27e28a;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
   /* footer */
 
   footer {
     padding: 10px;
     font-size: xx-small;
   }
+
+
 
 /* styles for portrait viewing */  
 
