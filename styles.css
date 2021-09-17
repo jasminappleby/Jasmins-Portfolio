@@ -110,6 +110,7 @@ body {
 .fa:hover {
     opacity: 0.7;
     transition: 0.5;
+    text-decoration: none;
   }
 
   /* LinkedIn */
@@ -127,6 +128,11 @@ body {
   /* GitHub */
   .fa-github {
     color: #4078c0;
+    background: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
     background: white;
   }
   
