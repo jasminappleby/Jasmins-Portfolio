@@ -16,6 +16,10 @@
     border-radius: 50%;
 }
 
+h1 {
+  font-weight: lighter;
+}
+
 h2, p, .menu {
     color: black;
 }
@@ -136,13 +140,21 @@ body {
     background: white;
   }
   
-/* Sets sectioning*/
+  /* Sectioning */
   .bordered-section {
     background-color: #ffffff9a;
-    align-items: center;
     border-radius: 15px;
-    color: #003955;
     padding: 5px;
+    width: 500px;
+    margin: auto;
+  }
+
+  .bordered-section-xl {
+    background-color: #ffffff9a;
+    border-radius: 15px;
+    padding: 5px;
+    width: 750px;
+    margin: auto;
   }
 
   /* Table CSS */
