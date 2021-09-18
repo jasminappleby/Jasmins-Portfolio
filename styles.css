@@ -230,17 +230,8 @@ body {
 
   @media only screen and (orientation: landscape) {
 
-    .fa {
-      width: 200px;
-      border-radius: 0;
-    }
-
     .bordered-section {
     padding: 50px;
-    }
-
-    section {
-      padding: 50px;
     }
 
   }
@@ -248,17 +239,18 @@ body {
   /* styles specifically for screens less than 768px (most mobiles) */  
 
   @media only screen and (min-width: 768px) {
-    
-    .selfie { 
-      width: 300px;
-      border: 5px groove #ffffff;
+
+    header {
+      background-color: #ffffff9a;
+      font-weight: bolder;
+      border-radius: 15px;
+      padding: 25px;
     }
 
-    .hoverDiv {
-      position: relative;
-      font-size: 60px;
-      font-family: Pangolin;
-      font-weight: 900;
+    .selfie { 
+      width: 300px;
+      border: 5px dotted #ffffff;
+      border-radius: 50%;
     }
 
     .fa {
@@ -266,13 +258,16 @@ body {
       border-radius: 0;
     }
 
-    .bordered-section {
-      padding: 20px;
-    }
-
     section {
       padding: 30px;
     }
+
+    .display {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
 
   }
 
