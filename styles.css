@@ -225,6 +225,10 @@ body {
 
 @media only screen and (orientation: portrait) {
 
+  .minimise {
+    font-size: small;
+  }
+
 
   /* styles for landscape viewing */  
 
