@@ -1,9 +1,15 @@
 # Personal Portfolio
 
-Welcome to my personal portfolio GitHub!
+You can view my portfolio page here: [Website](https://jasmins-portfolio.netlify.app)
 
-Have a look around the code!
+## Technologies 
 
-If you would like to suggest any changes, you can contact me on LinkedIn and let me know! 
+- HTML 
+- CSS 
+- Bootstrap
 
-LinkedIn: https://www.linkedin.com/in/jasmin-appleby-holdham-67150814b/
+## Feedback
+
+If you would like to send me any feedback regarding my website, I would be very happy to take it on board!
+
+You can message me via LinkedIn: [LinkedIn](https://www.linkedin.com/in/jasmin-appleby-holdham-67150814b/)
