@@ -101,43 +101,41 @@ body {
 }
 
 /* Adds Brand Logo Images */
-.fa {
+  .fa {
     padding: 20px;
     font-size: 100px;
     width: 60px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    background: white;
   }
   
   /* Adds hover effect */
-.fa:hover {
+  .fa:hover {
     opacity: 0.7;
     transition: 0.5;
-    text-decoration: none;
+    text-decoration: none;    
   }
 
   /* LinkedIn */
-.fa-linkedin {
+  .fa-linkedin {
     color: #0072b1;
-    background: white;
   }
   
   /* Youtube */
-.fa-youtube {
+  .fa-youtube, .fa-youtube:hover {
     color: #FF0000;
-    background: white;
+  }
+
+  /* Instagram */
+  .fa-instagram, .fa-instagram:hover {
+    color: black;
   }
 
   /* GitHub */
   .fa-github {
     color: #4078c0;
-    background: white;
-  }
-
-  /* Instagram */
-  .fa-instagram {
-    background: white;
   }
   
   /* Sectioning */
